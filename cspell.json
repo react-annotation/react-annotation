@@ -93,6 +93,7 @@
     "tses",
     "tsesast",
     "tseslint",
+    "tsslint",
     "tsup",
     "twoslash",
     "typeclass",

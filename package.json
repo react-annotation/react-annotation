@@ -8,7 +8,7 @@
   "scripts": {
     "build": "pnpm run update:version && turbo build --filter=\"./packages/**\"",
     "build:all": "pnpm run build && pnpm run build:docs",
-    "build:docs": "turbo build:docs --filter=\"./packages/**\" && pnpm run update:readme",
+    "build:docs": "turbo build:docs --filter=\"./packages/**\"",
     "build:force": "turbo build --force --filter=\"./packages/**\"",
     "format:check": "dprint check",
     "format:package-json": "pnpm --parallel -r exec sort-package-json -q ./package.json && dprint fmt",
