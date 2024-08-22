@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "../../typedoc.base.json"
+  ],
+  "name": "@react-annotation/tools",
+  "entryPoints": [
+    "src/index.ts"
+  ],
+  "out": "docs"
+}

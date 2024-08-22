@@ -1,0 +1,69 @@
+{
+  "[json]": {
+    "editor.defaultFormatter": "dprint.dprint",
+    "editor.quickSuggestions": {
+      "strings": true
+    }
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.quickSuggestions": {
+      "strings": true
+    }
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dprint.dprint"
+  },
+  "[yaml]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.autoIndent": "keep",
+    "editor.defaultFormatter": "dprint.dprint",
+    "editor.insertSpaces": true,
+    "editor.quickSuggestions": {
+      "comments": false,
+      "other": true,
+      "strings": true
+    },
+    "editor.tabSize": 2
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "yaml",
+    "github-actions-workflow" // for GitHub Actions workflow files
+  ],
+  "editor.codeActionsOnSave": {
+    "eslint.autoFix": "never",
+    "source.fixAll": "never",
+    "source.organizeImports": "never"
+  },
+  "eslint.workingDirectories": [
+    {
+      "changeProcessCWD": true,
+      "mode": "location"
+    },
+    {
+      "pattern": "examples/*",
+      "changeProcessCWD": true,
+      "mode": "auto"
+    },
+    {
+      "pattern": "website",
+      "changeProcessCWD": true,
+      "mode": "auto"
+    }
+  ],
+  "mdx.server.enable": true,
+  "search.exclude": {
+    "pnpm-lock.yaml": true
+  },
+  "files.exclude": {
+    "**/.turbo": true,
+    ".npmignore": true,
+    "*.bundled_*.mjs": true
+  },
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

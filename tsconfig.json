@@ -1,0 +1,34 @@
+{
+  "extends": [
+    "@tsconfig/strictest/tsconfig.json",
+    "@tsconfig/node22/tsconfig.json"
+  ],
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleDetection": "force",
+    "moduleResolution": "bundler",
+    "skipLibCheck": true,
+    "strict": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "exactOptionalPropertyTypes": true,
+    "noEmit": true,
+    "types": [
+      "@types/node"
+    ]
+  },
+  "include": [
+    "*.d.ts",
+    "*.config.ts",
+    "*.config.mts",
+    "test/*.ts",
+    "scripts/**/*.ts",
+    "packages/**/*.config.ts",
+    "packages/**/scripts/**/*.ts"
+  ],
+  "exclude": [
+    "eslint.config.mts"
+  ]
+}

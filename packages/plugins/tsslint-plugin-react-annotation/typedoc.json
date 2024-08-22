@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "../../typedoc.base.json"
+  ],
+  "name": "tsslint-plugin-react-annotation",
+  "entryPoints": [
+    "src/index.ts"
+  ],
+  "out": "docs"
+}
