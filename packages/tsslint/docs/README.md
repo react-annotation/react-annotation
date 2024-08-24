@@ -4,6 +4,6 @@
 
 # tsslint-plugin-react-annotation
 
-## Variables
+## Functions
 
-- [Plugin](variables/Plugin.md)
+- [create](functions/create.md)

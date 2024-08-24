@@ -1,5 +1,5 @@
 {
-  "name": "tsslint-plugin-react-annotation",
+  "name": "@react-annotation/tsslint",
   "version": "0.0.0",
   "description": "",
   "license": "MIT",
@@ -38,6 +38,7 @@
     "ts-pattern": "^5.3.1"
   },
   "devDependencies": {
+    "@tsslint/types": "^1.0.17",
     "tsup": "^8.2.4"
   }
 }
