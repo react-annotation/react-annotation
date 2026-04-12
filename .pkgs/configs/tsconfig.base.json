@@ -4,8 +4,16 @@
   ],
   "compilerOptions": {
     "noEmit": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "skipLibCheck": true,
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "resolveJsonModule": true,
+    "allowJs": false,
+    "checkJs": false,
     "erasableSyntaxOnly": true,
-    "allowImportingTsExtensions": true,
     "types": [
       "tsl/patches"
     ],

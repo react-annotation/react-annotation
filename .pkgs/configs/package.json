@@ -13,8 +13,8 @@
     "lint:publish": "publint"
   },
   "dependencies": {
-    "@tsconfig/node22": "^22.0.2",
-    "@tsconfig/strictest": "^2.0.7",
-    "tsl": "^1.0.26"
+    "@tsconfig/node24": "^24.0.4",
+    "@tsconfig/strictest": "^2.0.8",
+    "tsl": "^1.0.30"
   }
 }

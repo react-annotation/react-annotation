@@ -36,35 +36,34 @@
     "lint:publish": "pnpm m run lint:publish",
     "lint:spell": "cspell lint --relative --no-progress \"**\"",
     "lint:ts": "pnpm m run lint:ts",
-    "sort:package-json": "pnpm m exec sort-package-json -q package.json && dprint fmt",
-    "update:version": "tsx ./scripts/update-version.ts"
+    "sort:package-json": "pnpm m exec sort-package-json -q package.json && dprint fmt"
   },
   "devDependencies": {
     "@local/configs": "workspace:*",
-    "@tsconfig/node22": "^22.0.2",
-    "@tsconfig/strictest": "^2.0.7",
-    "@types/node": "^24.10.0",
-    "@types/react": "^19.2.2",
-    "@types/react-dom": "^19.2.2",
+    "@tsconfig/node24": "^24.0.4",
+    "@tsconfig/strictest": "^2.0.8",
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
     "ansis": "^4.2.0",
-    "cspell": "^9.3.0",
-    "dprint": "^0.50.2",
-    "nx": "^22.0.2",
-    "publint": "^0.3.15",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "sort-package-json": "^3.4.0",
-    "tinyglobby": "^0.2.15",
+    "cspell": "^10.0.0",
+    "dprint": "^0.54.0",
+    "nx": "^22.6.5",
+    "publint": "^0.3.18",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "sort-package-json": "^3.6.1",
+    "tinyglobby": "^0.2.16",
     "ts-pattern": "^5.9.0",
-    "tsl": "^1.0.26",
+    "tsl": "^1.0.30",
     "tslib": "^2.8.1",
-    "typedoc": "^0.28.14",
-    "typedoc-plugin-markdown": "^4.9.0",
-    "typedoc-plugin-mdn-links": "^5.0.10",
-    "typescript": "^5.9.3",
-    "vitest": "^4.0.8"
+    "typedoc": "^0.28.19",
+    "typedoc-plugin-markdown": "^4.11.0",
+    "typedoc-plugin-mdn-links": "^5.1.1",
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.4"
   },
-  "packageManager": "pnpm@10.20.0",
+  "packageManager": "pnpm@10.33.0",
   "engines": {
     "node": ">=22.17.0"
   },
@@ -75,13 +74,13 @@
       "nx"
     ],
     "overrides": {
-      "@types/react": "^19.2.2",
-      "@types/react-dom": "^19.2.2",
-      "react": "^19.2.0",
-      "react-dom": "^19.2.0",
-      "ts-api-utils": "^2.1.0",
+      "@types/react": "^19.2.14",
+      "@types/react-dom": "^19.2.3",
+      "react": "^19.2.5",
+      "react-dom": "^19.2.5",
+      "ts-api-utils": "^2.5.0",
       "tslib": "^2.8.1",
-      "typescript": "^5.9.3"
+      "typescript": "^6.0.2"
     }
   }
 }
